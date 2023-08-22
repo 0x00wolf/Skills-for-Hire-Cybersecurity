@@ -1,3 +1,9 @@
+# V3 reworked with added functionality.
+# V3 allows multiple users to subscribe. 
+# It checks to see if a username has already been selected when a new user subscribes and informs them the name is already taken. 
+# V3 adds salt to the cleartext password before applying the hashing algorithm, which was discussed in the videos but not demonstrated. 
+# In V3 if the user fails to authenticate, an error message will be provided to specify why they failed (invalid user, invalid password). 
+
 from Crypto.Hash import SHA256
 import sys
 
