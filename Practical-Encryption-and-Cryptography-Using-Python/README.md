@@ -1,5 +1,5 @@
 # Description:
-This is code that I wrote while taking the "Practical Encryption and Cryptography Using Python' course on Pluralsight for the SfH program. The code presented in teh course was written in Python 2.7, and failed to compile in Python 3. 
+This is code that I wrote while taking the "Practical Encryption and Cryptography Using Python' course on Pluralsight for the SfH program. The code presented in the course was written in Python 2.7, and failed to compile in Python 3. I updated all of the code to run in Python 3.1, and in some cases made improvements on the programs.
 
 ## Authenticate v1-4
 **The 1st version** of Authenticate was the original code in Python 2.7 from the Pluralsight platform. The original program had two modes, subscribe and login. Subscribe allowed for a username and password to be input. The username and a hash of the password would be written to a text file (the program could only save one user at a time). When selecting login the user would be prompted to input a username and password. The username would be matched to the saved username, and the password would be hashed and compared to the saved hash. If both matched the program printed that the user had logged in successfully.  
